@@ -6,9 +6,26 @@ html, body, .content {
     width:100%;
     height:100%;
     background:#444;
+    margin:0;
+    position: relative;
 }
 .mainnav {
     height: 60px;
     max-height: 10%;
     background: var(--ksu-purple);
+    margin:0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+}
+.mainnav .navitem  {
+    margin:0;
+    display: inline-block;
+    margin: 0 4px;
+}
+.mainnav > div {
+    
 }
