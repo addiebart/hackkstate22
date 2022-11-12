@@ -1,6 +1,14 @@
 /** inital diff **/
+:root {
+    --ksu-purple: #7851a9;
+}
 html, body, .content {
     width:100%;
     height:100%;
     background:#444;
+}
+.mainnav {
+    height: 60px;
+    max-height: 10%;
+    background: var(--ksu-purple);
 }
